@@ -1,0 +1,4 @@
+numpy
+torch==1.5.0 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision
+scipy==1.2.0
