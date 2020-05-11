@@ -1,1 +1,1 @@
-# Professional-Master-in-Machine-Learning
+# Professional-Master-in-Machine-Learning from mila-AI institute
