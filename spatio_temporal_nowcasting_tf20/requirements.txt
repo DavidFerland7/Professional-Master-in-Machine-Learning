@@ -1,0 +1,13 @@
+numpy
+pandas
+tensorflow-gpu==2.0
+matplotlib
+opencv-python
+lz4
+tqdm
+h5netcdf
+graphviz
+pydot
+nptyping
+wandb
+pysolar
