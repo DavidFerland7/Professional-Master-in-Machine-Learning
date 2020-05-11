@@ -1,0 +1,11 @@
+numpy
+matplotlib
+jupyter
+pandas
+seaborn
+scikit-learn
+pyyaml
+gensim
+Cython
+spacy[lookups]
+psutil
