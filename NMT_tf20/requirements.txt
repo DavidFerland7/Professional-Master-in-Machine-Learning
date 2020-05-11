@@ -1,0 +1,17 @@
+numpy
+pandas
+tensorflow-gpu==2.0
+matplotlib
+graphviz
+pydot
+nptyping
+wandb
+fasttext
+joblib
+sacrebleu==1.4.3
+fire
+numba
+Cython
+gensim
+youtokentome
+tqdm

@@ -1,0 +1,45 @@
+{
+  "embedding_model": {
+    "en": {
+      "vocab_size": 25000,
+      "fit_vocab_only": false,
+      "emb_size": 300,
+      "extra_tokens": [
+        "<UNK>",
+        "<EOS>",
+        "<BOS>"
+      ]
+    },
+    "fr": {
+      "vocab_size": 25000,
+      "fit_vocab_only": false,
+      "emb_size": 300,
+      "extra_tokens": [
+        "<UNK>",
+        "<EOS>",
+        "<BOS>"
+      ]
+    }
+  },
+  "preprocessing": {
+    "max_obs": null,
+    "raw_unaligned": {
+      "en": {
+        "data_suffix": "_tok_punc",
+        "split": 1
+      },
+      "fr": {
+        "data_suffix": "_tok",
+        "split": 1
+      }
+    },
+    "raw_aligned": {
+      "en": {
+        "split": 0.8
+      },
+      "fr": {
+        "split": 0.8
+      }
+    }
+  }
+}

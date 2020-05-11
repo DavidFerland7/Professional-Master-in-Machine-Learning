@@ -1,0 +1,32 @@
+{
+  "embedding_model": {
+    "voc_size": 8000,
+    "extra_tokens": [
+      "PAD_",
+      "<UNK>",
+      "<EOS>",
+      "<BOS>"
+    ]
+  },
+  "preprocessing": {
+    "max_obs": null,
+    "raw_unaligned": {
+      "en": {
+        "data_suffix": "_tok_punc",
+        "split": 1.0
+      },
+      "fr": {
+        "data_suffix": "_tok",
+        "split": 1.0
+      }
+    },
+    "raw_aligned": {
+      "en": {
+        "split": 1
+      },
+      "fr": {
+        "split": 1
+      }
+    }
+  }
+}

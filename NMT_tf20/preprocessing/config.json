@@ -1,0 +1,93 @@
+{
+  "preprocessing":{
+    "max_obs": null,
+    "raw_unaligned": {
+      "en": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "spacy_tokenizer",
+            null,
+            null
+          ],
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      },
+      "fr": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "spacy_tokenizer",
+            null,
+            null
+          ],
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      }
+    },
+    "raw_aligned": {
+      "en": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "spacy_tokenizer",
+            null,
+            null
+          ],
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      },
+      "fr": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "spacy_tokenizer",
+            null,
+            null
+          ],
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      }
+    }
+  }
+
+
+
+
+}

@@ -1,0 +1,46 @@
+{
+  "embedding_model": {
+    "en": {
+      "data_suffix": "_tok_punc_comb",
+      "encode": {
+        "bos":true,
+        "eos":true,
+        "reverse": false,
+        "dropout_prob": 0.0
+      },
+      "decode": {
+        "ignore_ids": [0, 2, 3]
+      },
+      "train": {
+        "vocab_size": 2500,
+        "coverage": 1.0,
+        "n_threads": -1,
+        "pad_id": 0,
+        "unk_id": 1,
+        "bos_id": 3,
+        "eos_id": 2
+      }
+    },
+    "fr": {
+      "data_suffix": "_tok_comb",
+      "encode": {
+        "bos":true,
+        "eos":true,
+        "reverse": false,
+        "dropout_prob": 0.0
+      },
+      "decode": {
+        "ignore_ids": [0, 2, 3]
+      },
+      "train": {
+        "vocab_size": 2500,
+        "coverage": 1.0,
+        "n_threads": -1,
+        "pad_id": 0,
+        "unk_id": 1,
+        "bos_id": 3,
+        "eos_id": 2
+      }
+    }
+  }
+}

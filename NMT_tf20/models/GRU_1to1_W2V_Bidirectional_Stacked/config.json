@@ -1,0 +1,55 @@
+{
+  "model": {
+    "load_model": false,
+    "wandb_run_to_load": "RUN-3.4-dryrun-20200408_232750-y0ahe35o",
+    "output_stats": true,
+    "model_class": "GRU",
+    "optimizer": "Adam",
+    "lr": 0.001,
+    "epochs": 30,
+    "batch_size": 32,
+    "batch_size_valid": 128,
+    "model_kwargs": {
+      "rnn_size": 256,
+      "dropout": 0.5,
+      "recurrent_dropout": 0.0,
+      "fine_tune_emb_input": true
+    }
+  },
+  "embedding": "Word2Vec",
+  "preprocessing": {
+    "max_obs": null,
+    "raw_aligned": {
+      "fr": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      },
+      "en": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      }
+    }
+  }
+}

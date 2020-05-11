@@ -1,0 +1,109 @@
+{
+  "embedding_model": {
+    "en": {
+      "model_kwargs": {
+        "sg": 1,
+        "size": 512,
+        "window": 10,
+        "min_count": 1,
+        "negative": 6,
+        "iter": 5,
+        "alpha": 0.025
+      },
+      "vocab_size": 2500,
+      "fit_vocab_only": false,
+      "extra_tokens": [
+        "<UNK>",
+        "<EOS>",
+        "<BOS>"
+      ]
+    },
+    "fr": {
+      "model_kwargs": {
+        "sg": 1,
+        "size": 256,
+        "window": 5,
+        "min_count": 5,
+        "negative": 5,
+        "iter": 5
+      },
+      "vocab_size": 2500,
+      "fit_vocab_only": true,
+      "extra_tokens": [
+        "<UNK>",
+        "<EOS>",
+        "<BOS>"
+      ]
+    }
+
+  },
+  "preprocessing": {
+    "max_obs": null,
+    "raw_unaligned": {
+      "en": {
+        "data_suffix": "_tok_punc",
+        "split": 1,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      },
+      "fr": {
+        "data_suffix": "_tok",
+        "split": 1,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      }
+    },
+    "raw_aligned": {
+      "en": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      },
+      "fr": {
+        "split": 0.8,
+        "ops_on_raw_strings": [
+          [
+            "add_EOS",
+            null,
+            null
+          ],
+          [
+            "add_BOS",
+            null,
+            null
+          ]
+        ]
+      }
+    }
+  }
+}
